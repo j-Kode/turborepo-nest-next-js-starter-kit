@@ -1,0 +1,12 @@
+{
+  "name": "@repo/types",
+  "version": "0.0.1",
+  "description": "Shared types for the monorepo",
+  "author": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "types": "index.ts",
+  "files": [
+    "index.ts"
+  ]
+}
