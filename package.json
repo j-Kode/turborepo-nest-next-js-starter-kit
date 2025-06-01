@@ -1,4 +1,7 @@
 {
+  "dependencies": {
+    "@nestjs/mapped-types": "*"
+  },
   "name": "turborepo-nest-next-js-starter-kit",
   "private": true,
   "scripts": {
