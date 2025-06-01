@@ -1,6 +1,6 @@
-# Turborepo starter
+# Turborepo NestJS + Next.js Starter Kit
 
-This Turborepo starter is maintained by the Turborepo core team.
+This Turborepo starter kit provides a full-stack monorepo setup with Next.js for the frontend and NestJS for the backend.
 
 ## Using this example
 
@@ -16,9 +16,10 @@ This Turborepo includes the following packages/apps:
 
 ### Apps and Packages
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
+- `web`: a [Next.js](https://nextjs.org/) app with modern UI using Tailwind CSS and shadcn/ui
+- `api`: a [NestJS](https://nestjs.com/) backend application
+- `@repo/ui`: a React component library shared across frontend applications
+- `@repo/database`: a shared database package with Prisma ORM setup
 - `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
 
