@@ -1,0 +1,19 @@
+{
+  "name": "database",
+  "version": "0.0.1",
+  "description": "Database package for the monorepo",
+  "author": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "types": "index.ts",
+  "files": [
+    "index.ts"
+  ],
+  "devDependencies": {
+    "prisma": "^6.8.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.8.2",
+    "@prisma/extension-accelerate": "^2.0.1"
+  }
+}
