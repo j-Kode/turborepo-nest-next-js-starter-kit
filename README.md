@@ -57,7 +57,7 @@ This repository provides a solid foundation leveraging the power of **Turborepo*
 ## 📂 Project Structure
 
 ```
-turbo-nest-prisma/
+turborepo-nest-next-js-starter-kit/
 ├── apps/
 │   ├── api/         # NestJS backend application
 │   └── web/         # Next.js frontend application
